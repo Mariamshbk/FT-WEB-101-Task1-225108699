@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Profile page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+  
+<header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="nav-name" href="#home">Mariam Mohamed Nasr Shabaka
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="theme-btn" type="button" aria-label="Toggle dark mode">
+        Page Mode
+      </button>
+    </nav>
+  </header>
+
+<main>
+
+    <section id="home" class="hero container">
+      <div class="hero-text">
+        <h1>Mariam Mohamed Nasr Shabaka</h1>
+        <p class="lead">
+         Exploring technology, learning new skills, and turning ideas into reality
+        </p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+
+      <img class="photo" src="images/me.jpg" alt="Portrait photo of Mariam Mohamed Nasr Shabaka">
+    </section>
+
+    <section id="about" class="section container" aria-labelledby="about-heading">
+      <h2 id="about-heading">A little about me</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>About Me</h3>
+          <p>
+    Hi! I'm Mariam, a second-year Computer Science student at New Mansoura University.
+    I've learned C# through my university studies, and I'm currently improving my programming and problem-solving skills through Data Structures.
+  </p>
+
+  <p>
+    I'm also learning Data Analysis, working with Excel, and creating dashboards to organize, analyze, and visualize data.
+    Currently, I'm learning MySQL, database fundamentals, and Python.
+  </p>
+
+  <p>
+    In addition, I'm beginning my journey in Web Development, learning how to build and design websites using HTML, CSS, and JavaScript.
+  </p>
+
+  <p>
+    I enjoy using AI tools to support my learning, understand new concepts, and improve my study methods.
+    My goal is to keep learning, develop my technical skills, and pursue a future career in Software Engineering.
+  </p>
+        </article>
+
+        <article class="card">
+          <h3>My Skills</h3>
+          <ul class="tags">
+            <li>Data Analysis</li>
+            <li>Excel</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>MySQL</li>
+            <li>Dashboards</li>
+            <li>Problem Solving</li>
+            <li>Power BI</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Beyond the Code</h3>
+          <p>
+            <ul>
+  <li>Creative Thinking</li>
+  <li>Problem Solving</li>
+  <li>Technology Exploration</li>
+  <li>User Experience</li>
+  <li>Continuous Learning</li>
+</ul>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container" aria-labelledby="contact-heading">
+      <div class="contact-box">
+        <h2 id="contact-heading">Contact</h2>
+        <p class="lead">
+          Email me at
+          <a href="mailto:mariamshabaka23@gmail.com">mariamshabaka23@gmail.com</a>
+        </p>
+
+        <form class="form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+          </div>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Mariam Mohamed Nasr Shabaka. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#home" aria-label="Back to top">
+    <span aria-hidden="true">&uarr;</span>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
